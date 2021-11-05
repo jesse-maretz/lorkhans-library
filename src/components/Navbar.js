@@ -1,11 +1,17 @@
 import React from 'react';
-import '../style/navbar.css'
+import { Router, Route, Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
         <div>
-            <h3>Lorkhan's Library Navbar</h3>
+            <Router>
+                <button><Link to='/lore/races'>Races of Tamriel</Link></button>
+                <button>Through the Eras</button>
+                <button>ESI - ESV</button>
+                <button>History of Men and Mer</button>
+            </Router>
         </div>
+        
     )
 }
 

@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import MainLanding from './components/MainLanding'
+import Home from './components/Home'
 import Footer from './components/Footer';
+import { useRoutes } from 'hookrouter'
+import Routes from './components/Routes'
 
 function App() {
+  const routeResult = useRoutes(Routes)
   return (
     <div className="App">
-      <Navbar />
-      <MainLanding />
-      <Footer />
+      routeResult
     </div>
   );
 }
