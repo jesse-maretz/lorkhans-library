@@ -1,12 +1,12 @@
 import React, { useState  } from 'react';
 
 const ViewRace = (props) => {
+    console.log(props)
     const [raceIndex, cycleRace] = useState(Math.floor(props.raceArr.length / 2))
     console.log(raceIndex)
     let raceArrRace = props.raceArr[raceIndex].race
     let raceArrImg = props.raceArr[raceIndex].img
-    console.log(raceArrImg)
-    console.log(props.raceArr[raceIndex].img)
+
 
     function cycleLeft() {
         if (raceIndex > 0) {
@@ -22,7 +22,7 @@ const ViewRace = (props) => {
 
     return(
          <div>
-             <button onClick={cycleLeft}>Left</button>
+            <button onClick={cycleLeft}>Left</button>
              <div>
                 <h4>{raceArrRace}</h4>
                 <img src={raceArrImg} alt="" />

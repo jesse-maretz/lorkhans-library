@@ -1,13 +1,14 @@
 import React from 'react';
-const MainLanding = () => {
+import NavModal from './NavModal'
+
+const Home = () => {
 
     return (
         <div>
-            
-                    <h1>Main Landing Body</h1>
-            
+            <h1>Home Body</h1>
+            <NavModal />
         </div>
     )
 }
 
-export default MainLanding
+export default Home
