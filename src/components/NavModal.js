@@ -3,9 +3,11 @@ import React from 'react';
 const NavModal = () => {
 
     return (
-        <div>
+        <div id="modal">
             <button id="navModalButton">Hamburger menu</button>
-            <p>NavModal</p>
+            <div>
+                <p>NavModal</p>
+            </div>
         </div>
     )
 }
