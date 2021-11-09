@@ -1,13 +1,16 @@
 import React from 'react';
-import Footer from './Footer';
+import Navbar from './Navbar';
 import NavModal from './NavModal'
+import Footer from './Footer';
 
 const Home = () => {
 
     return (
         <div>
-            <h1>Home Body</h1>
-            <NavModal />
+            <div>
+                <Navbar />
+                <NavModal />
+            </div>
             <Footer />
         </div>
     )

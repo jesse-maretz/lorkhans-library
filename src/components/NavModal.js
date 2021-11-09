@@ -4,7 +4,8 @@ const NavModal = () => {
 
     return (
         <div>
-            p
+            <button id="navModalButton">Hamburger menu</button>
+            <p>NavModal</p>
         </div>
     )
 }
