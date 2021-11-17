@@ -7,8 +7,8 @@ import Footer from './Footer';
 const Home = () => {
 
     return (
-        <div id="home-div">
-            <div>
+        <div>
+            <div id="home-div">
                 <Navbar />
                 <NavModal />
             </div>

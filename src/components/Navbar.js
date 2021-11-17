@@ -3,12 +3,13 @@ import '../style/Navbar.css'
 
 const Navbar = () => {
     return (
-        <div id="nav-div">
-            <button className='nav-btns' id="open-modal">Hamburger menu</button>
-            <button className='nav-btns'>Races of Tamriel</button>
-            <button className='nav-btns'>Through the Eras</button>
-            <button className='nav-btns'>ESI - ESV</button>
-            <button className='nav-btns'>History of Men and Mer</button>
+        <div>
+            <div id="nav-div">
+                <button className='nav-btns'>Races of Tamriel</button>
+                <button className='nav-btns'>Through the Eras</button>
+                <button className='nav-btns'>ESI - ESV</button>
+                <button className='nav-btns'>History of Men and Mer</button>
+            </div>
         </div>
         
     )
