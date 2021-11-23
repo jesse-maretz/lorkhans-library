@@ -1,6 +1,5 @@
 import React from 'react';
 import '../style/Home.css'
-import Navbar from './Navbar';
 import Footer from './Footer';
 
 const Home = () => {
