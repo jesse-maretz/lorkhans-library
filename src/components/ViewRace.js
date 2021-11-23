@@ -1,4 +1,5 @@
 import React, { useState  } from 'react';
+import "../style/ViewRace.css"
 
 const ViewRace = (props) => {
     console.log(props)
@@ -21,15 +22,15 @@ const ViewRace = (props) => {
     }
 
     return(
-         <div>
-            <button onClick={cycleLeft}>Left</button>
-             <div>
+         <div id="main-div">
+            <button className="race-carousel-btn" onClick={cycleLeft}>Left</button>
+             <div id="race-div">
                 <h4>{raceArrRace}</h4>
                 <img src={raceArrImg} alt="" />
                 <h4>Home Province: {props.raceArr[raceIndex].homeProv}</h4>
                 <h4>Religion: {props.raceArr[raceIndex].religion}</h4>
              </div>
-             <button onClick={cycleRight}>Right</button>
+             <button className="race-carousel-btn" onClick={cycleRight}>Right</button>
          </div>
      )
 }

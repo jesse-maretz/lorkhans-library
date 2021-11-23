@@ -3,6 +3,7 @@ import '../style/Home.css'
 import Navbar from './Navbar';
 import NavModal from './NavModal'
 import Footer from './Footer';
+import RaceLore from './RaceLore';
 
 const Home = () => {
 
@@ -10,7 +11,7 @@ const Home = () => {
         <div>
             <div id="home-div">
                 <Navbar />
-                <NavModal />
+                <RaceLore />
             </div>
             <Footer />
         </div>

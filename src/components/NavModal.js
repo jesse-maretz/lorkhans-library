@@ -1,6 +1,8 @@
 import React from 'react';
 import '../style/NavModal.css'
-const NavModal = () => {
+
+
+function NavModal(props) {
 
     return (
         <div>
