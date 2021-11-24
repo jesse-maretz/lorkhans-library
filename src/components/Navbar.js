@@ -5,6 +5,9 @@ import '../style/Navbar.css'
 const Navbar = () => {
     return (
         <div id="nav-links">
+            <Link to="/">
+                <button className="nav-btns">Home</button>
+            </Link>
             <Link to="/lore/races">
                 <button className='nav-btns'>Races of Tamriel</button>
             </Link>
