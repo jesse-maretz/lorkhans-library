@@ -1,5 +1,6 @@
 import React, { useState  } from 'react';
 import "../style/ViewRace.css"
+import racesBackground from "./../images/race-lore-imgs/ESO-Races.jpeg"
 
 const ViewRace = (props) => {
     console.log(props)
@@ -31,6 +32,7 @@ const ViewRace = (props) => {
                 <h4>Religion: {props.raceArr[raceIndex].religion}</h4>
              </div>
              <button className="race-carousel-btn" onClick={cycleRight}>Right</button>
+             <img id="races-background" src={racesBackground} alt="" />
          </div>
      )
 }

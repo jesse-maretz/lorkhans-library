@@ -1,6 +1,10 @@
-#home-div {
+#landing-div {
     min-height: 70vh;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+#eso-scape {
+    height: 100vh;
+    width: auto;
 }

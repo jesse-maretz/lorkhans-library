@@ -1,10 +1,15 @@
 #main-div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .race-carousel-btn {
     padding: 8px;
     border-radius: 5px;
 }
+#racesBackground {
+    grid-column: 1 / 3;
+}
+
