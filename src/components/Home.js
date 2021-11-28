@@ -8,7 +8,6 @@ const Home = () => {
     return (
         <div>
             <div id="landing-div">
-                <img id="eso-scape" src={landingImg} alt="" />
             </div>
             <Footer />
         </div>

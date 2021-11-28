@@ -3,6 +3,9 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    background: url("https://imgur.com/GcY6ssv.png");
+    background-position: center;
+    background-size: cover;
 }
 #eso-scape {
     height: 100vh;
