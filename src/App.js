@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Route, Routes, Link } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Navbar from './components/Navbar';
 import Home from './components/Home'
-import RaceLore from './components/RaceLore'
-import EraTimeline from './components/EraTimeline';
-import ESGames from './components/ESGames';
-import MenAndMer from './components/MenAndMer'
+import RaceLore from './components/lore-pages/RaceLore'
+import EraTimeline from './components/lore-pages/EraTimeline';
+import ESGames from './components/lore-pages/ESGames';
+import MenAndMer from './components/lore-pages/MenAndMer'
 
 function App() {
   return (

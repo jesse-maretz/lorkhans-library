@@ -1,6 +1,6 @@
 import React, { useState  } from 'react';
-import "../style/ViewRace.css"
-import racesBackground from "./../images/race-lore-imgs/ESO-Races.jpeg"
+import "../../style/ViewRace.css"
+import racesBackground from "../../images/race-lore-imgs/ESO-Races.jpeg"
 
 const ViewRace = (props) => {
     console.log(props)

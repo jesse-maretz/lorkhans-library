@@ -1,5 +1,5 @@
 import React from 'react';
-import "../style/EraTimeline.css"
+import "../../style/EraTimeline.css"
 
 function EraTimeline() {
     return(

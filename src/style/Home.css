@@ -1,13 +1,16 @@
 #landing-div {
     min-height: 70vh;
+    height: 100vh;
+    width: auto;
     display:flex;
     justify-content: center;
     align-items: center;
-    background: url("https://imgur.com/GcY6ssv.png");
     background-position: center;
     background-size: cover;
+    opacity: 0.5;
 }
-#eso-scape {
-    height: 100vh;
-    width: auto;
+
+#landing-text {
+    display: flex;
+    justify-content: center;
 }
