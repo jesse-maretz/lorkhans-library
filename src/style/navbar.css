@@ -1,11 +1,15 @@
-#navbar {
+#nav-main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-    padding: 20px;
+    align-items: center;
+    height: 5vh;
+}
+
+#nav-links {
+    padding: 5px;
 }
 
 .nav-btns {
-    margin: 10px;
+    padding: 3px;
 }

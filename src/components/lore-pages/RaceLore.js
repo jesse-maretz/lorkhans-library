@@ -1,8 +1,8 @@
 import React from 'react';
 import ViewRace from './ViewRace';
-import dunmerChar from '/Users/jessemaretz/Desktop/projects/scrolls-site/lorkhans-library/src/images/race-lore-imgs/dunmerChar.png';
-import nordChar from '/Users/jessemaretz/Desktop/projects/scrolls-site/lorkhans-library/src/images/race-lore-imgs/nordChar.png';
-import altmerChar from '/Users/jessemaretz/Desktop/projects/scrolls-site/lorkhans-library/src/images/race-lore-imgs/altmerChar.png';
+import dunmerChar from '../../images/race-lore-imgs/dunmerChar.png';
+import nordChar from '../../images/race-lore-imgs/nordChar.png';
+import altmerChar from '../../images/race-lore-imgs/altmerChar.png';
 
 const RaceBios = () => {
     let raceArr = [
