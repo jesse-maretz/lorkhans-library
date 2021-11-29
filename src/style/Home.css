@@ -1,13 +1,15 @@
 #landing-div {
-    min-height: 70vh;
-    height: 100vh;
-    width: auto;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-position: center;
+}
+
+#eso-scape {
+    min-height: 70vh;
+    height: 100vh;
+    position: center;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.65;
 }
 
 #landing-text {

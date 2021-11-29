@@ -1,4 +1,4 @@
-#nav-links {
+#navbar {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -8,5 +8,4 @@
 
 .nav-btns {
     margin: 10px;
-    opacity: 1;
 }

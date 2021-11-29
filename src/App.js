@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { Route, Routes } from "react-router-dom"
-import Navbar from './components/Navbar';
 import Home from './components/Home'
 import RaceLore from './components/lore-pages/RaceLore'
 import EraTimeline from './components/lore-pages/EraTimeline';
@@ -12,7 +11,6 @@ function App() {
   return (
     <div>
       <div className="app">
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/lore/races" element={<RaceLore />}></Route>
