@@ -1,9 +1,41 @@
-#main-div {
+#main-viewrace {
+    position: relative;
+    height: 100vh;
+    width: 100%;
     display: flex;
-    max-width: 600px;
+    justify-content: center;
+    background: url("../images/race-lore-imgs/ESO-Races.jpeg");
+    background-size:cover;
 }
 
-.race-carousel-btn {
+#main-viewrace::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(175, 168, 168, 0.35);
+}
+.carousel-btn {
     padding: 8px;
+    border-radius: 5px;
+    height: 2.5em;
+    width: auto;
+    margin: 5px;
+}
+#race-carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#race-card {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background: khaki;
+    padding: 1em;
     border-radius: 5px;
 }

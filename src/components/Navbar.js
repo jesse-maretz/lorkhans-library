@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom"
+import { GiHamburgerMenu } from 'react-icons/gi'
 import '../style/Navbar.css'
 
 const Navbar = () => {
     return (
         <div id="nav-main">
+            <GiHamburgerMenu id="hamburger-menu" className="nav-btns" />
             <div id="nav-links">
                 <Link to="/">
                     <button className="nav-btns">Home</button>

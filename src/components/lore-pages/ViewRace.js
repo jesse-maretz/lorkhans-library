@@ -1,6 +1,5 @@
 import React, { useState  } from 'react';
 
-import Navbar from "../Navbar"
 
 import "../../style/ViewRace.css"
 
@@ -25,17 +24,16 @@ const ViewRace = (props) => {
     }
 
     return(
-         <div id="viewrace">
-            <Navbar />
-            <div id="main-div">
-                <button className="race-carousel-btn" onClick={cycleLeft}>Left</button>
-                <div id="race-div">
+         <div id="main-viewrace">
+            <div id="race-carousel">
+                <button className="carousel-btn" onClick={cycleLeft}>Left</button>
+                <div id="race-card">
                     <h4>{raceArrRace}</h4>
                     <img src={raceArrImg} alt="" />
                     <h4>Home Province: {props.raceArr[raceIndex].homeProv}</h4>
                     <h4>Religion: {props.raceArr[raceIndex].religion}</h4>
                 </div>
-                <button className="race-carousel-btn" onClick={cycleRight}>Right</button>
+                <button className="carousel-btn" onClick={cycleRight}>Right</button>
              </div>
          </div>
      )

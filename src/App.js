@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import { Route, Routes } from "react-router-dom"
+
+import Navbar from './components/Navbar';
 import Home from './components/Home'
 import RaceLore from './components/lore-pages/RaceLore'
 import EraTimeline from './components/lore-pages/EraTimeline';
@@ -10,6 +12,7 @@ import MenAndMer from './components/lore-pages/MenAndMer'
 function App() {
   return (
     <div>
+      <Navbar />
       <div className="app">
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -18,6 +21,7 @@ function App() {
           <Route path="/es_games" element={<ESGames />}></Route>
           <Route path="lore/men_mer" element={<MenAndMer />}></Route>
         </Routes>
+        
       </div>
     </div>
   );
