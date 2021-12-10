@@ -7,6 +7,7 @@ const Navbar = () => {
     return (
         <div id="nav-main">
 {/*             <GiHamburgerMenu id="hamburger-menu" className="nav-btns" />*/}
+            <button>Nav Modal</button>
             <div id="nav-links">
                 <Link to="/">
                     <button className="nav-btns">Home</button>

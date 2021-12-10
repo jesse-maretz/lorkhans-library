@@ -7,7 +7,17 @@ function NavModal(props) {
     return (
         <div>
             <button id="open-modal">Modal Menu</button>
-            <div id="modal">
+            <div id="modal"
+            style={{
+                backgroundColor: "rgba(0, 0, 0, .7)",
+                height: "100vh",
+                width: "100vw",
+                padding: 0,
+                margin: 0,
+                display: visible ? "flex" : "none",
+                justifyContent: "center",
+                alignItems: "center"
+              }}>
                 <div id="modal-menu">
 
                     <div className="modal-menu-list">

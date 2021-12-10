@@ -28,8 +28,8 @@ const ViewRace = (props) => {
             <div id="race-carousel">
                 <button className="carousel-btn" onClick={cycleLeft}>Left</button>
                 <div id="race-card">
-                    <h4>{raceArrRace}</h4>
-                    <img src={raceArrImg} alt="" />
+                    <h3>{raceArrRace}</h3>
+                    <img id="charImg" src={raceArrImg} alt="" />
                     <h4>Home Province: {props.raceArr[raceIndex].homeProv}</h4>
                     <h4>Religion: {props.raceArr[raceIndex].religion}</h4>
                 </div>
