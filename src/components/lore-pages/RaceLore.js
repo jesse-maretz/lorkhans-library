@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ViewRace from './ViewRace'
+import ViewRace from './RaceBio'
 
 import altmerChar from '../../images/race-lore-imgs/altmerChar.png'
 import argonianChar from '../../images/race-lore-imgs/argonianChar.png'

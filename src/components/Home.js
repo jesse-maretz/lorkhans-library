@@ -3,6 +3,7 @@ import React from 'react';
 import '../style/Home.css'
 import esoScape from "../images/tamirel-imgs/eso-scape.jpeg"
 
+
 import Footer from './Footer';
 
 const Home = () => {

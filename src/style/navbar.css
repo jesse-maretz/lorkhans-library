@@ -1,20 +1,14 @@
 #nav-main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 5vh;
     width: 100%;
 }
-
-#nav-links {
-    padding: 5px;
-}
-
 .nav-btns {
     padding: 3px;
 }
-
 #hamburger-menu {
-    /* text-align: justify; */
+    text-align: justify;
 }
