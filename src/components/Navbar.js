@@ -52,9 +52,6 @@ const Navbar = () => {
 
                 </MenuModal>
             </div>
-            <Link to="/">
-                <button className="nav-btns">Home</button>
-            </Link>
             <Link to="/lore/races">
                 <button className='nav-btns'>Races of Tamriel</button>
             </Link>

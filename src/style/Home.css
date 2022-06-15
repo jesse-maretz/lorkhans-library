@@ -1,18 +1,30 @@
+#home-main{
+    border: 2px black;
+}
+/*
 #landing-div {
     display:flex;
     justify-content: center;
     align-items: center;
 }
-
 #eso-scape {
     min-height: 70vh;
     height: 100vh;
-    position: center;
+    position: relative;
     background-size: cover;
     opacity: 0.65;
 }
-
+*/
 #landing-text {
     display: flex;
     justify-content: center;
+}
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    border: 10px black;
+    padding: 10px;
+}
+.card {
+    border: 2px solid lightcoral;
 }

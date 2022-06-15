@@ -11,6 +11,7 @@ import ESGames from './components/lore-pages/ESGames';
 import MenAndMer from './components/lore-pages/MenAndMer'
 
 function App() {
+
   return (
     <div className="app">
       <Navbar />
